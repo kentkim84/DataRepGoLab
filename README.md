@@ -22,30 +22,30 @@ This repository contains some example code written in the programming language G
 // Version 0.1 using C standards
 
 ## 1. Naming Conventions and Style
-    1.1. Use Pascal casing for class and structs
+1.1. Use Pascal casing for class and structs
+    
+    class PlayerManager;
+    struct AnimationInfo;
+
+1.2. Use camel casing for local variable names and function parameters
+    
+    void SomeMethod(const int someParameter);
+    {
+        int someNumber;
+    
+    }
+
+1.3. Use verb-object pairs for method names
+a.	Use pascal casing for public methods
         
-        class PlayerManager;
-        struct AnimationInfo;
+    public:
+    void DoSomething();
 
-    1.2. Use camel casing for local variable names and function parameters
+b.	Use camel casing for other methods
         
-        void SomeMethod(const int someParameter);
-        {
-            int someNumber;
-        
-        }
+    private:
+    void doSomething();
 
-    1.3. Use verb-object pairs for method names
-        a.	Use pascal casing for public methods
-                
-                public:
-                void DoSomething();
-
-        b.	Use camel casing for other methods
-                
-                private:
-                void doSomething();
-
-References
+## References
 This coding standard is followed by
 * [popeKim's c/c++ coding standards](https://docs.google.com/document/d/1cT8EPgMXe0eopeHvwuFmbHG4TJr5kUmcovkr5irQZmo/edit#heading=h.r2n9mhxbh2gg)
