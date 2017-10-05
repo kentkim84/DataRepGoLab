@@ -29,8 +29,16 @@ func reverse(s string) string {
 
 func main() {
 
-	var dummyData string = "Hannnah"
+	var dummyData string = "Hannah"
+	var userInput string
 
-	fmt.Printf("%v\n", reverse(dummyData))
+	fmt.Printf("Example is 'Hannah', result is: %v\n", reverse(dummyData))
 	fmt.Println(strings.EqualFold(reverse(dummyData), dummyData))
+
+	fmt.Println("Enter a string text to check whether it's a palindrome or not")
+	fmt.Scanln(&userInput)
+	fmt.Printf("String is '%s', result is: %v\n", userInput, reverse(userInput))
+	fmt.Println(strings.EqualFold(reverse(userInput), userInput))
+
+
 }

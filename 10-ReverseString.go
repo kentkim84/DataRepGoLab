@@ -27,7 +27,7 @@ func main() {
 	var userInput string
 
 	fmt.Println("Please enter a string to be reversed")
-	fmt.Scanf("%s", &userInput)
+	fmt.Scanln(&userInput)
 	fmt.Printf("%v\n", reverse(userInput))
 
 }

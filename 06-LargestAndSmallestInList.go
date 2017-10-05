@@ -20,7 +20,7 @@ func main() {
 	var lowNum int64
 	var iteration int
 	
-	// Create a new list and put some numbers in it.
+	// create a new list and put some numbers in it.
 	l := list.New()
 	iteration = 1
 
@@ -53,7 +53,7 @@ func main() {
 		// update the iteration
 		iteration++
 	}
-	
+
 	for e := l.Front(); e != nil; e = e.Next() {
 		fmt.Println(e.Value)
 	}
