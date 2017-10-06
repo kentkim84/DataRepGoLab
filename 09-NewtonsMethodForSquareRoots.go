@@ -4,8 +4,6 @@
 // Title: Newton’s method for square roots
 // Source: https://gist.github.com/abesto/3476594
 // Objective: Write a function to calculate the square root of a number using Newton’s method.
-// 1. 
-// 2. 
 
 package main
 
