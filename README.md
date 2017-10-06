@@ -75,5 +75,6 @@ b.	Use camel casing for other methods
 ### References
 This examples are from
 * [Data Representation and Querying - Ian McLoughlin](https://data-representation.github.io/problems/go-fundamentals.html)
+
 This coding standard is followed by
 * [popeKim's c/c++ coding standards](https://docs.google.com/document/d/1cT8EPgMXe0eopeHvwuFmbHG4TJr5kUmcovkr5irQZmo/edit#heading=h.r2n9mhxbh2gg)
